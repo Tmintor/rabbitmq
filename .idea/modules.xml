@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-rabbitmq-hello/01-rabbitmq-hello.iml" filepath="$PROJECT_DIR$/01-rabbitmq-hello/01-rabbitmq-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-rabbitmq-workqueue/02-rabbitmq-workqueue.iml" filepath="$PROJECT_DIR$/02-rabbitmq-workqueue/02-rabbitmq-workqueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-rabbitmq-exchange/03-rabbitmq-exchange.iml" filepath="$PROJECT_DIR$/03-rabbitmq-exchange/03-rabbitmq-exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-springboot-delay-queue/04-springboot-delay-queue.iml" filepath="$PROJECT_DIR$/04-springboot-delay-queue/04-springboot-delay-queue.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+# Project exclude paths
+/01-rabbitmq-hello/target/
+/02-rabbitmq-workqueue/target/
+/03-rabbitmq-exchange/target/

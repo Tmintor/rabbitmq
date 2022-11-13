@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="04-springboot-delay-queue" />
+        <module name="01-rabbitmq-hello" />
+        <module name="02-rabbitmq-workqueue" />
+        <module name="03-rabbitmq-exchange" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-rabbitmq-hello" target="8" />
+      <module name="02-rabbitmq-workqueue" target="8" />
+      <module name="03-rabbitmq-exchange" target="8" />
+      <module name="04-springboot-delay-queue" target="1.8" />
+      <module name="springboot-delay-queue (1) (com.example)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="04-springboot-delay-queue" options="-parameters" />
+      <module name="springboot-delay-queue (1) (com.example)" options="-parameters" />
+    </option>
+  </component>
+</project>
